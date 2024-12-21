@@ -1,0 +1,13 @@
+{
+  "name": "Boulevardier",
+  "spirit": "whiskey",
+  "description": "If you’re into bitter drinks and enjoy whiskey, this is your cocktail. Refreshing, sweet, and bitter describe the characteristics of this cocktail.",
+  "ingredients": [
+    "1 Oz Campari",
+    "1.5 Oz Whiskey",
+    "1 Oz Sweet vermouth"
+  ],
+  "instructions": [],
+  "optional": [],
+  "publishedDate": "2024-12-21T15:35"
+}

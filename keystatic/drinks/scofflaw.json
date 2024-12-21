@@ -1,0 +1,20 @@
+{
+  "name": "Scofflaw",
+  "spirit": "whiskey",
+  "description": "A tart, remarkably easy-drinking cocktail that remains one of the most refreshing ways to mix and drink whiskey.",
+  "ingredients": [
+    "2 oz bourbon or rye",
+    "1/2 oz dry vermouth",
+    "3/4 oz grenadine or home made pomegranate syrup",
+    "3/4 oz fresh lemon juice",
+    "Orange twist, for garnish"
+  ],
+  "instructions": [
+    "Combine all ingredients except garnish in cocktail shaker filled with ice.",
+    "Shake vigorously for 15-20 seconds until well-chilled.",
+    "Strain into chilled coupe or Nick & Nora glass.",
+    "Garnish with orange or lemon twist."
+  ],
+  "optional": [],
+  "publishedDate": "2024-12-21T18:32"
+}

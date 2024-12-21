@@ -1,0 +1,14 @@
+{
+  "name": "Manhattan",
+  "spirit": "whiskey",
+  "description": "2-1-2, the area code of the city that never sleeps. 2 Oz Whiskey, 1 Oz Sweet Vermouth, and 2 dashes of bitters.",
+  "ingredients": [
+    "2 Oz Whiskey",
+    "1 Oz Sweet Vermouth",
+    "2 dashes of angostura bitters",
+    "garnish"
+  ],
+  "instructions": [],
+  "optional": [],
+  "publishedDate": "2024-12-21T15:33"
+}

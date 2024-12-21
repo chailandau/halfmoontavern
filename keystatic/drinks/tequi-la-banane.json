@@ -1,0 +1,19 @@
+{
+  "name": "Tequi La Banane",
+  "spirit": "tiki",
+  "description": "Fruity tiki",
+  "ingredients": [
+    "1.5 oz tequila reposado",
+    ".5 oz fresh lemon juice {also good with lime juice}",
+    ".5 oz orgeat",
+    ".25 oz banana liqueur",
+    ".25 oz passionfruit liqueur {also could use passionfruit syrup}",
+    "A drop of angostura bitters"
+  ],
+  "instructions": [
+    "Shake with ice.",
+    "Strain over cubes or crushed ice and garnish if desired."
+  ],
+  "optional": [],
+  "publishedDate": "2024-12-21T22:04"
+}

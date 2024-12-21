@@ -1,0 +1,12 @@
+{
+  "name": "Vodka Seltzer",
+  "spirit": "vodka",
+  "description": "Watered down fizzy vodka, for a refreshing sipper.",
+  "ingredients": [
+    "2 Oz Vodka",
+    "then fill the glass with soda"
+  ],
+  "instructions": [],
+  "optional": [],
+  "publishedDate": "2024-12-21T19:05"
+}

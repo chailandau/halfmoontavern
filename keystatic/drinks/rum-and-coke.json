@@ -1,0 +1,12 @@
+{
+  "name": "Rum & Coke",
+  "spirit": "rum",
+  "description": "Like a whiskey and coke but a bit sweeter.",
+  "ingredients": [
+    "2 Oz Rum",
+    "then fill the glass with coke"
+  ],
+  "instructions": [],
+  "optional": [],
+  "publishedDate": "2024-12-21T21:04"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Three Dots And A Dash",
+  "spirit": "rum",
+  "description": "An extremely spiced tiki drink.",
+  "ingredients": [
+    "1/2 oz fresh lime juice",
+    "1/2 oz fresh orange juice",
+    "1/4 oz velvet falernum",
+    "1/4 oz allspice dram",
+    "1 1/2 oz Martinique rum",
+    "1/2 oz aged rum",
+    "1 dash Angostura bitters"
+  ],
+  "instructions": [],
+  "optional": [
+    "Garnish: 3 maraschino cherries and a pineapple chunk"
+  ],
+  "publishedDate": "2024-12-21T21:09"
+}

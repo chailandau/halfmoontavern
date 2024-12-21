@@ -1,0 +1,16 @@
+{
+  "name": "Old Fashioned",
+  "spirit": "whiskey",
+  "description": "The classic. Whiskey, Fruit, Sugar, and Bitters. Strong, sweet, and refreshing to sip. This drink will bring you right to a prohibition era speakeasy.",
+  "ingredients": [
+    "1½ Oz Whiskey",
+    "2 dashes of angostura bitters",
+    "1 sugar cube",
+    "muddled fruit",
+    "a splash of water",
+    "garnish"
+  ],
+  "instructions": [],
+  "optional": [],
+  "publishedDate": "2024-12-21T15:32"
+}

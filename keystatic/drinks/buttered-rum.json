@@ -1,0 +1,18 @@
+{
+  "name": "Buttered Rum",
+  "spirit": "rum",
+  "description": "The butter really adds some luscious notes to the sweet rum flavors of this cocktail.",
+  "ingredients": [
+    "Build in Mug",
+    "1 tsp Butter",
+    "2 tsp Brown Sugar",
+    "2 oz Rum"
+  ],
+  "instructions": [
+    "Fill with hot water",
+    "Stir to incorporate",
+    "Garnish with nutmeg and cinnamon"
+  ],
+  "optional": [],
+  "publishedDate": "2024-12-21T21:07"
+}

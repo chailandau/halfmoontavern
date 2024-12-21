@@ -1,0 +1,15 @@
+{
+  "name": "Martini",
+  "spirit": "vodka",
+  "description": "Just vodka with a hint of dry vermouth. If you're a vodka person who doesn't want to mess around, here's a cocktail for you.",
+  "ingredients": [
+    "2 ½ Oz Vodka",
+    "½ Oz dry vermouth"
+  ],
+  "instructions": [],
+  "optional": [
+    "1 dash orange or aromatic bitters",
+    "lemon twist or olives"
+  ],
+  "publishedDate": "2024-12-21T19:00"
+}

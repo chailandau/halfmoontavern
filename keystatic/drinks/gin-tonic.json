@@ -1,0 +1,13 @@
+{
+  "name": "Gin Tonic",
+  "spirit": "gin",
+  "description": "Watered down fizzy gin, a pleasant drink with a bit of zest.",
+  "ingredients": [
+    "2 Oz Gin",
+    "then fill the glass with soda",
+    "small squeeze of lime juice"
+  ],
+  "instructions": [],
+  "optional": [],
+  "publishedDate": "2024-12-21T20:06"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Pegu Club ",
+  "spirit": "gin",
+  "description": "The Pegu Club consists of gin, orange liqueur, lime juice and bitters. This combination puts it in the company of a similar classic cocktail of the time, the Sidecar, and both were notable for using orange liqueur rather than sugar as a balance for fresh lemon or lime juice.\\n\\nHowever, many modern drinkers may find it easier to simply think of the Pegu Club Cocktail as a gin margarita.",
+  "ingredients": [
+    "2 oz gin",
+    "3/4 oz orange curacao",
+    "1 dash angostura bitters",
+    "1 dash orange bitters",
+    "Lime or grapefruit twist, for garnish"
+  ],
+  "instructions": [
+    "Combine all ingredients except garnish in shaker filled with ice.",
+    "Shake vigorously until well chilled, 15-20 seconds.",
+    "Strain into chilled coupe or Nick & Nora glass.",
+    "Garnish with twist of lime or grapefruit."
+  ],
+  "optional": [],
+  "publishedDate": "2024-12-21T20:15"
+}

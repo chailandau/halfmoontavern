@@ -1,0 +1,21 @@
+{
+  "name": "Stamaril",
+  "spirit": "tiki",
+  "description": "A tiki-fied Penicillin",
+  "ingredients": [
+    "1.5 oz lightly aged rum",
+    ".5 oz unaged Jamaican overproof rum",
+    "Fat .25 oz mezcal",
+    ".75 oz pineapple ginger syrup",
+    ".75 oz lime juice",
+    "5 drops of tiki bitters"
+  ],
+  "instructions": [
+    "Shake everything except the mezcal with ice.",
+    "Pour over one large ice cube.",
+    "Float mezcal on top.",
+    "Garnish with pineapple frond and dehydrated lime wheel."
+  ],
+  "optional": [],
+  "publishedDate": "2024-12-21T22:01"
+}

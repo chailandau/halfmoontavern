@@ -1,0 +1,15 @@
+{
+  "name": "Martini",
+  "spirit": "gin",
+  "description": "Once described as getting slapped in the face with a wet pine branch, the splash of dry vermouth only adds to the gin flavor.",
+  "ingredients": [
+    "2 ½ Oz Gin",
+    "½ Oz dry vermouth"
+  ],
+  "instructions": [],
+  "optional": [
+    "1 dash orange or aromatic bitters",
+    "lemon twist or olives"
+  ],
+  "publishedDate": "2024-12-21T20:01"
+}

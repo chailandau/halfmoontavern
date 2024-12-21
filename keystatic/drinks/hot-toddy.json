@@ -1,0 +1,15 @@
+{
+  "name": "Hot Toddy",
+  "spirit": "whiskey",
+  "description": "A warm drink with ginger syrup and lemon juice.",
+  "ingredients": [
+    "In mug:",
+    "1½ oz Ginger Syrup",
+    "¼ oz Lemon Juice",
+    "2 oz Bourbon",
+    "Fill with Hot Water"
+  ],
+  "instructions": [],
+  "optional": [],
+  "publishedDate": "2024-12-21T16:34"
+}

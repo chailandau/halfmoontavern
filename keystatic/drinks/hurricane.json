@@ -1,0 +1,19 @@
+{
+  "name": "Hurricane",
+  "spirit": "rum",
+  "description": "A different take.  See \"Other\" for the other one.",
+  "ingredients": [
+    "2 oz light rum",
+    "2 oz dark rum",
+    "4 oz orange juice",
+    "4 oz pineapple juice",
+    "1 oz frangelico or amaretto",
+    "1 oz grenadine syrup"
+  ],
+  "instructions": [
+    "Shake then pour into a tall glass filled with crushed ice.",
+    "Garnish with a slice of orange, wedge of pineapple, or a maraschino cherry."
+  ],
+  "optional": [],
+  "publishedDate": "2024-12-21T21:12"
+}

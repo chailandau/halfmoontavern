@@ -1,0 +1,14 @@
+{
+  "name": "White Russian",
+  "spirit": "vodka",
+  "description": "The same as above, but the addition of heavy cream gives this drink a dessert-like richness.",
+  "ingredients": [
+    "2 Oz Vodka",
+    "1 Oz Coffee Liqueur",
+    "1 Oz Heavy Cream",
+    "Garnish with spices"
+  ],
+  "instructions": [],
+  "optional": [],
+  "publishedDate": "2024-12-21T19:02"
+}
