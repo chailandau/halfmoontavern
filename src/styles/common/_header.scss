@@ -1,0 +1,240 @@
+header {
+    padding: rem(35) 0 rem(50) 0;
+    margin-bottom: rem(100);
+    z-index: 2;
+    width: 100%;
+    @include laptop {
+        padding: rem(35) 0 rem(100) 0;
+    }
+
+    // mobile menu toggle
+    .menu-toggle {
+        display: block;
+        @include laptop {
+            display: none;
+        }
+        position: absolute;
+        top: rem(26);
+        right: rem(24);
+        width: rem(32);
+        height: rem(20);
+        z-index: 11;
+        span {
+            &.line {
+                display: block;
+                width: 100%;
+                height: rem(2);
+                background: $light-blue;
+                position: absolute;
+                transform: translateY(0) rotate(0deg);
+                transition: all 400ms ease-in-out;
+                &.top {
+                    top: 0;
+                }
+                &.middle {
+                    top: rem(9);
+                }
+                &.bottom {
+                    bottom: 0;
+                }
+            }
+        }
+        &:focus {
+            outline: rem(5) auto Highlight;
+            outline: -webkit-focus-ring-color auto rem(5);
+            outline-offset: rem(2);
+        }
+    }
+
+    &:before {
+        visibility: hidden;
+        opacity: 0;
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        background-color: $bright-purple;
+        box-shadow: 0 rem(2) rem(5) #2f2938;
+        transition: all 300ms ease-in-out;
+    }
+    .logo {
+        width: rem(224);
+        margin: auto;
+
+        svg {
+            width: 100%;
+            height: auto;
+            path {
+                fill: $light-blue;
+            }
+        }
+    }
+    nav {
+        padding: rem(40);
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 110vh;
+        background-color: $bright-purple;
+        z-index: 10;
+        overflow-y: auto;
+        @include laptop {
+            display: block;
+            position: relative;
+            padding: rem(85) 0 0 0;
+            top: unset;
+            left: unset;
+            width: unset;
+            height: unset;
+            background-color: unset;
+            overflow-y: unset;
+        }
+        ul {
+            list-style-type: none;
+            padding: rem(45) 0 0 0;
+            margin: 0;
+            color: $light-blue;
+            text-transform: uppercase;
+            @include font(28, 5, 30);
+            text-align: center;
+            @include laptop {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                text-align: unset;
+                padding: unset;
+                @include font(20, 5, 30);
+            }
+
+            li {
+                a {
+                    @include underline-on-hover($light-blue, 36, 1, 7);
+                    @include laptop {
+                        @include underline-on-hover($light-blue, 30, 1, 7);
+                    }
+                    &:hover {
+                        color: $light-blue;
+                    }
+                }
+                & + li {
+                    margin-top: rem(40);
+                    @include laptop {
+                        margin-top: unset;
+                    }
+                }
+                button {
+                    display: inline-block !important;
+                    @include underline-on-hover($light-blue, 36, 1, 7);
+                    padding-top: rem(4);
+                    text-transform: uppercase;
+                    @include font(28, 5, 30);
+                    @include laptop {
+                        @include font(20, 5, 30);
+                    }
+                }
+            }
+        }
+    }
+}
+
+body.scrolled {
+    padding-top: rem(388);
+    @include laptop {
+        padding-top: rem(553);
+    }
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        margin-bottom: 0;
+        padding: rem(10) 0 rem(6) 0;
+        &:before {
+            visibility: visible;
+            opacity: 1;
+        }
+        .big-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0;
+        }
+        .logo {
+            width: rem(65);
+            margin: 0 0 rem(-25) 0;
+            svg#logo {
+                g.text {
+                    display: none;
+                }
+            }
+        }
+        .menu-toggle {
+            top: rem(15);
+        }
+        nav {
+            @include laptop {
+                padding: 0 rem(50) 0 0;
+            }
+
+            ul {
+                @include laptop {
+                    @include font(18, 4, 30);
+                }
+
+                li {
+                    & + li {
+                        @include laptop {
+                            margin-left: rem(50);
+                        }
+                    }
+                    a {
+                        @include underline-on-hover($light-blue, 36, 1, 7);
+                        @include laptop {
+                            @include underline-on-hover($light-blue, 26, 1, 7);
+                        }
+                    }
+                    button {
+                        @include underline-on-hover($light-blue, 36, 1, 7);
+                        @include laptop {
+                            @include underline-on-hover($light-blue, 33, 1, 7);
+                            display: inline-block !important;
+                            padding-bottom: rem(4) !important;
+                            @include font(18, 4, 30);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+html.nav-open {
+    overflow: hidden;
+    header {
+        .menu-toggle {
+            span {
+                &.line {
+                    &.top {
+                        transform: translateY(8px) rotate(40deg);
+                    }
+                    &.middle {
+                        opacity: 0;
+                    }
+                    &.bottom {
+                        transform: translateY(-10px) rotate(-40deg);
+                    }
+                }
+            }
+        }
+        nav {
+            display: block;
+        }
+    }
+    .back-to-top {
+        display: none;
+    }
+}

@@ -1,24 +1,27 @@
-import Link from 'next/link';
+import Modal from '~/components/DrinkInfo/Modal';
 
-// import { reader } from '~/../app/reader';
-import '~/../app/styles.css';
+const Home = ({ spirits }) => (
+  <div>
+    hio
+    {spirits?.map((spirit) => (
+      <div className="spirit-section" id={spirit?.title?.toLowerCase()} key={spirit?.title}>
+        <div className="wrapper">
+          <div className="spirit-type">
+            <h2 className="spirit-title">{spirit.title}</h2>
+            <div className="drinks">
+              {spirit?.drinks?.map((drink) => (
+                <div className="drink-indiv" key={drink.title}>
+                  <h3 className="drink-title">{drink.title}</h3>
+                  {drink?.description && <p>{drink.description}</p>}
+                  <Modal data={drink} />
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    ))}
+  </div>
+);
 
-export default async function Homepage() {
-  return (
-    <div>
-      <h1>Keystatic ⚡️</h1>
-      <p>This homepage shows how to load a collection from the reader API.</p>
-      <p>
-        <a href="/keystatic">Click here to visit the Admin UI</a>, or the link below to view a post in the collection.
-      </p>
-      <h2>Posts</h2>
-      <ul>
-        {/* {posts.map((post) => (
-          <li key={post.slug}>
-            <Link href={`/${post.slug}`}>{post.entry.title}</Link>
-          </li>
-        ))} */}
-      </ul>
-    </div>
-  );
-}
+export default Home;

@@ -67,7 +67,6 @@ module.exports = {
     'plugin:react/recommended',
     'next',
     'plugin:import/recommended',
-    'plugin:tailwindcss/recommended',
     'prettier',
   ],
   rules,
